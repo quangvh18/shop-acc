@@ -6,8 +6,8 @@ const ThankYou = () => {
   return (
     <>
       <Helmet>
-        <title>Cảm ơn bạn đã đặt hàng! – Divine Shop</title>
-        <meta name="description" content="Cảm ơn bạn đã đặt hàng tại Divine Shop. Liên hệ Zalo 0987328409 để được hỗ trợ nhanh nhất." />
+        <title>Cảm ơn bạn đã đặt hàng! – Shop Premium</title>
+        <meta name="description" content="Cảm ơn bạn đã đặt hàng tại Shop Premium. Liên hệ Zalo 0987328409 để được hỗ trợ nhanh nhất." />
         <link rel="canonical" href="/thankyou" />
       </Helmet>
       <Header />

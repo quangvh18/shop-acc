@@ -74,8 +74,8 @@ const handleAdd = () => {
   return (
     <>
       <Helmet>
-        <title>{product.name} – Divine Shop</title>
-        <meta name="description" content={`Mua ${product.name} giá tốt, giao hàng tự động tại Divine Shop.`} />
+        <title>{product.name} – Shop Premium</title>
+        <meta name="description" content={`Mua ${product.name} giá tốt, giao hàng tự động tại Shop Premium.`} />
         <link rel="canonical" href={`/product/${product.slug}`} />
       </Helmet>
       <Header />

@@ -33,8 +33,8 @@ const Payment = () => {
   return (
     <>
       <Helmet>
-        <title>Thanh toán – Divine Shop</title>
-        <meta name="description" content="Quét mã QR để thanh toán đơn hàng tại Divine Shop." />
+        <title>Thanh toán – Shop Premium</title>
+        <meta name="description" content="Quét mã QR để thanh toán đơn hàng tại Shop Premium." />
         <link rel="canonical" href="/payment" />
       </Helmet>
       <Header />

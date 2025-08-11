@@ -5,8 +5,8 @@ import Footer from "@/components/layout/Footer";
 const Recruitment = () => (
   <>
     <Helmet>
-      <title>Tuyển dụng – Divine Shop</title>
-      <meta name="description" content="Tuyển dụng nhân viên chăm sóc khách hàng Divine Shop." />
+      <title>Tuyển dụng – Shop Premium</title>
+      <meta name="description" content="Tuyển dụng nhân viên chăm sóc khách hàng Shop Premium." />
       <link rel="canonical" href="/recruitment" />
     </Helmet>
     <Header />

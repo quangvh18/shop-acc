@@ -5,8 +5,8 @@ import Footer from "@/components/layout/Footer";
 const Terms = () => (
   <>
     <Helmet>
-      <title>Điều khoản sử dụng – Divine Shop</title>
-      <meta name="description" content="Điều khoản sử dụng dịch vụ Divine Shop." />
+      <title>Điều khoản sử dụng – Shop Premium</title>
+      <meta name="description" content="Điều khoản sử dụng dịch vụ Shop Premium." />
       <link rel="canonical" href="/terms" />
     </Helmet>
     <Header />

@@ -13,7 +13,7 @@ const Checkout = () => {
   return (
     <>
       <Helmet>
-        <title>Xác nhận – Divine Shop</title>
+        <title>Xác nhận – Shop Premium</title>
         <meta name="description" content="Xác nhận thông tin đơn hàng của bạn trước khi thanh toán." />
         <link rel="canonical" href="/checkout" />
       </Helmet>

@@ -20,7 +20,7 @@ const Header = () => {
             <PercentCircle className="opacity-90" /> <span>Sản phẩm khuyến mại</span>
             <BriefcaseBusiness className="opacity-90 cursor-pointer" onClick={() => navigate('/recruitment')} /> <span className="cursor-pointer" onClick={() => navigate('/recruitment')}>Tuyển dụng</span>
           </div>
-          <div className="opacity-90">Kiếm tiền trên Divine Shop</div>
+          <div className="opacity-90">Kiếm tiền trên Shop Premium</div>
         </div>
       </div>
       <div className="container mx-auto flex items-center gap-3 py-4 px-4">
@@ -29,7 +29,7 @@ const Header = () => {
             <span className="text-2xl font-bold text-white">A</span>
           </div>
           <div className="flex flex-col leading-tight">
-            <span className="text-xl font-bold text-primary" style={{fontFamily: 'inherit'}}>Acc Store</span>
+            <span className="text-xl font-bold text-primary" style={{fontFamily: 'inherit'}}>Shop Premium</span>
             <span className="text-xs text-gay-200 -mt-1">Tài khoản premium</span>
           </div>
         </Link>

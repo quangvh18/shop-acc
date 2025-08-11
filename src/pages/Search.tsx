@@ -53,7 +53,7 @@ const Search = () => {
   return (
     <>
       <Helmet>
-        <title>Tìm kiếm sản phẩm – Divine Shop</title>
+        <title>Tìm kiếm sản phẩm – Shop Premium</title>
         <meta name="description" content="Tìm kiếm sản phẩm theo danh mục, loại tài khoản, mức giá và sắp xếp." />
         <link rel="canonical" href="/search" />
       </Helmet>

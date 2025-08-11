@@ -7,8 +7,8 @@ import { Button } from "@/components/ui/button";
 const Contact = () => (
   <>
     <Helmet>
-      <title>Liên hệ – Divine Shop</title>
-      <meta name="description" content="Liên hệ bộ phận hỗ trợ Divine Shop." />
+      <title>Liên hệ – Shop Premium</title>
+      <meta name="description" content="Liên hệ bộ phận hỗ trợ Shop Premium." />
       <link rel="canonical" href="/contact" />
     </Helmet>
     <Header />

@@ -5,8 +5,8 @@ import Footer from "@/components/layout/Footer";
 const Privacy = () => (
   <>
     <Helmet>
-      <title>Chính sách bảo mật – Divine Shop</title>
-      <meta name="description" content="Chính sách bảo mật thông tin khách hàng của Divine Shop." />
+      <title>Chính sách bảo mật – Shop Premium</title>
+      <meta name="description" content="Chính sách bảo mật thông tin khách hàng của Shop Premium." />
       <link rel="canonical" href="/privacy" />
     </Helmet>
     <Header />

@@ -10,7 +10,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Divine Shop – Mua tài khoản số, phần mềm bản quyền giá rẻ</title>
+        <title>Shop Premium – Mua tài khoản số, phần mềm bản quyền giá rẻ</title>
         <meta name="description" content="Sản phẩm nổi bật: AI, VPN, YouTube Premium, Windows, JetBrains… Giao tự động, uy tín." />
         <link rel="canonical" href="/" />
       </Helmet>

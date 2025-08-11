@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="mt-12 border-t bg-background">
       <div className="container mx-auto px-4 py-4 grid gap-6 md:grid-cols-12">
         <div className="md:col-span-6">
-          <div className="text-lg font-bold">Divine Shop</div>
+          <div className="text-lg font-bold">Shop Premium</div>
           <p className="mt-2 text-sm text-muted-foreground">Mua tài khoản số, phần mềm bản quyền giá tốt. Giao tự động, uy tín.</p>
         </div>
         <nav className="md:col-span-3">
@@ -22,7 +22,7 @@ const Footer = () => {
         </nav>
       </div>
       <div className="border-t">
-        <div className="container mx-auto px-4 py-1 text-xs text-muted-foreground text-center">© {new Date().getFullYear()} Divine Shop. All rights reserved.</div>
+        <div className="container mx-auto px-4 py-1 text-xs text-muted-foreground text-center">© {new Date().getFullYear()} Shop Premium. All rights reserved.</div>
       </div>
     </footer>
   );

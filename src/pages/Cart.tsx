@@ -19,7 +19,7 @@ const Cart = () => {
   return (
     <>
       <Helmet>
-        <title>Giỏ hàng – Divine Shop</title>
+        <title>Giỏ hàng – Shop Premium</title>
         <meta name="description" content="Kiểm tra sản phẩm trong giỏ hàng của bạn và tiến hành thanh toán." />
         <link rel="canonical" href="/cart" />
       </Helmet>
