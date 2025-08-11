@@ -109,7 +109,7 @@ export const products: Product[] = [
     tags: ["education"],
     image: spotifyImg,
     status: "in_stock",
-    category: "Học tập",
+    category: "Âm nhạc",
     accountType: "Spotify Premium",
   },
   {
@@ -121,7 +121,7 @@ export const products: Product[] = [
     tags: ["education"],
     image: spotifyImg,
     status: "in_stock",
-    category: "Học tập",
+    category: "Âm nhạc",
     accountType: "Spotify Premium",
   },
   {
@@ -133,7 +133,7 @@ export const products: Product[] = [
     tags: ["education"],
     image: claudeImg,
     status: "in_stock",
-    category: "Học tập",
+    category: "AI",
     accountType: "Claude Pro",
   },
   {
@@ -145,7 +145,7 @@ export const products: Product[] = [
     tags: ["education"],
     image: capcut1mImg,
     status: "in_stock",
-    category: "Học tập",
+    category: "Video Editor",
     accountType: "CapCut Pro",
   },
   {
@@ -157,7 +157,7 @@ export const products: Product[] = [
     tags: ["education"],
     image: capcut1yImg,
     status: "in_stock",
-    category: "Học tập",
+    category: "Video Editor",
     accountType: "CapCut Pro",
   },
   {
@@ -169,7 +169,7 @@ export const products: Product[] = [
     tags: ["education"],
     image: gemini1mImg,
     status: "in_stock",
-    category: "Học tập",
+    category: "AI",
     accountType: "Gemini Pro",
   },
   {
@@ -181,7 +181,7 @@ export const products: Product[] = [
     tags: ["education"],
     image: netflix1mImg,
     status: "in_stock",
-    category: "Học tập",
+    category: "Giải trí",
     accountType: "Netflix Premium",
   },
   // {
