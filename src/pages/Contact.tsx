@@ -22,7 +22,7 @@ const Contact = () => (
           <Button>Gửi</Button>
         </div>
         <div className="text-sm text-muted-foreground">
-          Hoặc liên hệ qua Zalo: <a href="https://zalo.me/0987328409" className="underline text-blue-600" target="_blank" rel="noopener noreferrer">0344.396.798</a>
+          Hoặc liên hệ qua Zalo: <a href="https://zalo.me/0987328409" className="underline text-blue-600" target="_blank" rel="noopener noreferrer">0987.328.409</a>
         </div>
       </section>
       <Footer />
