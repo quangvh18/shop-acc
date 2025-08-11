@@ -3,17 +3,16 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { useCart } from "@/context/CartContext";
 import { currency } from "@/data/products";
-import { QRCodeCanvas } from "qrcode.react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { toast } from "@/hooks/use-toast";
 import { CheckCircle } from "lucide-react";
+import qrImage from "@/assets/qrcode.jpg";
 
 const Payment = () => {
   const { total, clear } = useCart();
   const navigate = useNavigate();
   const orderId = Math.random().toString(36).slice(2, 8).toUpperCase();
-  const qrText = `DIVINE_SHOP|ORDER:${orderId}|AMOUNT:${total}`;
 
   const onDone = () => {
     clear();
@@ -22,7 +21,7 @@ const Payment = () => {
       description: (
         <div className="flex items-center gap-2">
           <CheckCircle className="h-5 w-5 text-green-500" />
-          <span>Cảm ơn bạn đã đặt hàng. Liên hệ Zalo 0344396798 để được hỗ trợ nhanh nhất.</span>
+          <span>Cảm ơn bạn đã đặt hàng. Liên hệ Zalo 0987328409 để được hỗ trợ nhanh nhất.</span>
         </div>
       ),
     });
@@ -57,8 +56,14 @@ const Payment = () => {
             <h1 className="mb-4 text-xl font-bold">Chuyển khoản ngân hàng - Mua siêu tốc</h1>
             <div className="text-sm text-muted-foreground">Số tiền: <span className="font-semibold text-foreground">{currency(total)}</span></div>
             <div className="mt-4 flex items-center justify-center">
-              <div className="rounded-md border p-3 bg-card">
-                <QRCodeCanvas value={qrText} size={240} includeMargin />
+              <div className="rounded-md border bg-white p-3">
+                <img
+                  src={qrImage}
+                  alt="Mã QR thanh toán"
+                  width={240}
+                  height={240}
+                  className="block"
+                />
               </div>
             </div>
             <ol className="mt-4 list-decimal space-y-2 pl-6 text-sm">

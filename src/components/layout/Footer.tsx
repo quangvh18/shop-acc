@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="font-semibold">Liên hệ</div>
           <ul className="mt-2 space-y-2 text-sm">
             <li><a href="/contact" className="hover:underline">Trung tâm hỗ trợ</a></li>
-            <li><a href="https://zalo.me/0344396798" className="hover:underline" target="_blank" rel="noopener noreferrer">Zalo: 0344.396.798</a></li>
+            <li><a href="https://zalo.me/0987328409" className="hover:underline" target="_blank" rel="noopener noreferrer">Zalo: 0987.328.409</a></li>
           </ul>
         </nav>
       </div>

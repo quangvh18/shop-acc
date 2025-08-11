@@ -39,7 +39,7 @@ const Recruitment = () => (
           <li>Kỹ năng giao tiếp tốt, làm việc nhóm</li>
         </ul>
         <div className="mt-8 p-4 bg-blue-50 rounded text-base">
-          <b>Liên hệ ứng tuyển qua Zalo:</b> <a href="https://zalo.me/0344396798" className="underline text-blue-600" target="_blank" rel="noopener noreferrer">0344.396.798</a>
+          <b>Liên hệ ứng tuyển qua Zalo:</b> <a href="https://zalo.me/0987328409" className="underline text-blue-600" target="_blank" rel="noopener noreferrer">0344.396.798</a>
         </div>
       </div>
     </main>
