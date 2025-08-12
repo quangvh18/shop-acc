@@ -71,3 +71,52 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+## Supabase setup
+
+Create a `.env.local` with:
+
+```
+VITE_SUPABASE_URL=your_url
+VITE_SUPABASE_ANON_KEY=your_key
+```
+
+### Database schema
+
+Run this SQL in Supabase:
+
+```sql
+-- Enable extensions (Supabase usually has these by default)
+create extension if not exists "uuid-ossp";
+
+create table if not exists public.orders (
+  id uuid primary key default uuid_generate_v4(),
+  created_at timestamptz not null default now(),
+  customer_name text not null,
+  customer_zalo text,
+  account_type text not null,
+  store_account text,
+  customer_account text,
+  customer_password text,
+  customer_otp_secret text,
+  start_date date not null,
+  duration_months int not null check (duration_months between 1 and 24),
+  end_date date not null,
+  cost numeric not null default 0,
+  revenue numeric not null default 0,
+  note text
+);
+
+-- Enable RLS and allow authenticated read/write (adjust to your auth model)
+alter table public.orders enable row level security;
+create policy "orders anon read" on public.orders
+  for select to anon using (true);
+create policy "orders anon write" on public.orders
+  for insert to anon with check (true);
+create policy "orders anon update" on public.orders
+  for update to anon using (true) with check (true);
+create policy "orders anon delete" on public.orders
+  for delete to anon using (true);
+```
+
+Then open `/admin/orders` to manage orders.
