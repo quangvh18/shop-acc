@@ -27,7 +27,7 @@ const Payment = () => {
     });
     setTimeout(() => {
       navigate("/thankyou");
-    }, 1200);
+    }, 600);
   };
 
   return (

@@ -51,14 +51,14 @@ const Search = () => {
   };
 
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Helmet>
         <title>Tìm kiếm sản phẩm – Shop Premium</title>
         <meta name="description" content="Tìm kiếm sản phẩm theo danh mục, loại tài khoản, mức giá và sắp xếp." />
         <link rel="canonical" href="/search" />
       </Helmet>
       <Header />
-      <main className="container mx-auto px-4 mt-6">
+      <main className="flex-1 container mx-auto px-4 mt-6 pb-8">
         <h1 className="text-2xl font-bold">Tìm kiếm sản phẩm</h1>
         <section className="mt-4 grid gap-4 md:grid-cols-12">
           <aside className="md:col-span-3 space-y-3 rounded-lg border p-4">
@@ -112,14 +112,14 @@ const Search = () => {
           </aside>
           <section className="md:col-span-9">
             <div className="mb-3 text-sm text-muted-foreground">Tìm thấy {filtered.length} sản phẩm</div>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {filtered.map(p => (<ProductCard key={p.id} product={p} />))}
             </div>
           </section>
         </section>
-        <Footer />
       </main>
-    </>
+      <Footer />
+    </div>
   );
 };
 
