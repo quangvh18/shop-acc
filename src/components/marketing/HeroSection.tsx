@@ -3,7 +3,7 @@ import hero1 from "@/assets/hero-capcut.png";
 import hero2 from "@/assets/hero-youtube.png";
 import hero3 from "@/assets/hero-netflix.png";
 import { Link } from "react-router-dom";
-import { Gamepad2, GraduationCap, Shield, Laptop, Brain, Code } from "lucide-react";
+import { Gamepad2, GraduationCap, Shield, Laptop, Brain, Code, Video, Music } from "lucide-react";
 import designBg from "@/assets/thiet-ke.png";
 import aiBg from "@/assets/ai.png";
 
@@ -14,12 +14,11 @@ const slides = [
 ];
 
 const categories = [
-  { label: "Giải trí", icon: Gamepad2, to: "/search?category=Gi%E1%BA%A3i%20tr%C3%AD" },
-  { label: "Học tập", icon: GraduationCap, to: "/search?category=H%E1%BB%8Dc%20t%E1%BA%ADp" },
-  { label: "Bảo mật", icon: Shield, to: "/search?category=B%E1%BA%A3o%20m%E1%BA%ADt" },
-  { label: "Hệ điều hành", icon: Laptop, to: "/search?category=H%E1%BB%87%20%C4%91i%E1%BB%81u%20h%C3%A0nh" },
   { label: "AI", icon: Brain, to: "/search?category=AI" },
-  { label: "Dev", icon: Code, to: "/search?category=Dev" },
+  { label: "Giải trí", icon: Gamepad2, to: "/search?category=Gi%E1%BA%A3i%20tr%C3%AD" },
+  { label: "Âm nhạc", icon: Music, to: "/search?category=%C3%82m%20nh%E1%BA%A1c" },
+  { label: "Học tập", icon: GraduationCap, to: "/search?category=H%E1%BB%8Dc%20t%E1%BA%ADp" },
+  { label: "Video Editor", icon: Video, to: "/search?category=Video%20Editor" },
 ];
 
 const HeroSection = () => {

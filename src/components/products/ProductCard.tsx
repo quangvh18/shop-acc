@@ -9,7 +9,7 @@ const ProductCard = ({ product }: { product: Product }) => {
   
   return (
     <Card className="group overflow-hidden card-hover shadow-soft h-full">
-      <CardContent className="p-0">
+      <CardContent className="p-0 flex flex-col h-full">
         {/* Product Image - Tỉ lệ 920×430 (≈2.14:1) */}
         <Link to={`/product/${product.slug}`} className="block relative overflow-hidden">
           <img 
@@ -27,9 +27,9 @@ const ProductCard = ({ product }: { product: Product }) => {
         </Link>
         
         {/* Product Info */}
-        <div className="p-4 space-y-3">
+        <div className="p-4 space-y-3 flex flex-col flex-1">
           <div>
-            <h3 className="font-semibold text-sm sm:text-base leading-tight text-balance line-clamp-2 group-hover:text-primary transition-colors">
+            <h3 className="font-medium text-xs sm:text-sm leading-tight truncate group-hover:text-primary transition-colors">
               {product.name}
             </h3>
           </div>
@@ -47,7 +47,7 @@ const ProductCard = ({ product }: { product: Product }) => {
           </div>
           
           {/* Action Button */}
-          <div className="pt-2">
+          <div className="pt-2 mt-auto">
             <Button variant="soft" asChild className="w-full btn-soft">
               <Link to={`/product/${product.slug}`}>
                 Xem chi tiết
